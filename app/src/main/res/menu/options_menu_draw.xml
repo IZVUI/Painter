@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/rubber"
+        android:id="@+id/rubber"/>
+
+
+    <item android:title="@string/size"
+        android:id="@+id/size"/>
+
+    <item android:title="@string/clear"
+        android:id="@+id/clear"/>
+
+    <item android:title="@string/back"
+        android:id="@+id/back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_back"/>
+
+
+    <item android:title="@string/choose_color"
+        android:id="@+id/color"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_choose_color"/>
+
+    <item android:title="@string/choose_from_gallery"
+        app:showAsAction="ifRoom"
+        android:id="@+id/pickImage"/>
+
+    <item android:title="@string/scaling"
+        android:id="@+id/scaling"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_scaling_image"/>
+
+    <item android:title="@string/save"
+        android:id="@+id/save"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="Blur"
+        android:id="@+id/blur"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
